@@ -174,7 +174,7 @@ def train(task ='LinkPrediction',
         kg = KnowledgeGraphYG(data_dir=data_dir, count = count,rev_set = rev_set)
         n_day = kg.n_time
         min_epoch=50
-    elif data_dir=='icews14':
+    elif data_dir=='icews14' or data_dir=='icews14-1' or data_dir=='icews14-2' or data_dir=='icews14-3':
         n_day = 365
         kg = KnowledgeGraph(data_dir=data_dir,gran=gran,rev_set = rev_set)
     elif data_dir == 'icews05-15':
