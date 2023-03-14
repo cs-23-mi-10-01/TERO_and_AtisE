@@ -1,0 +1,3 @@
+[submodule "Images/de-simple"]
+	path = Images/de-simple
+	url = https://github.com/cs-22-mi-9-01/diachronic-embedding

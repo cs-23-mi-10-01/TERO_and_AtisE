@@ -1,0 +1,5 @@
+BootStrap: docker
+From: nvcr.io/nvidia/pytorch:22.10-py3
+
+%post
+pip install torch
