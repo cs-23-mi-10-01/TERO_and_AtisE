@@ -14,12 +14,12 @@ parser.add_argument(
 
 parser.add_argument(
     '--model',
-    default='ATISE',type=str,
+    default='TERO',type=str,
     help='choose models')
 
 parser.add_argument(
     '--dataset',
-    default='icews14-1',
+    default='wikidata-1',
     type=str, help='dataset to train on')
 
 parser.add_argument(
