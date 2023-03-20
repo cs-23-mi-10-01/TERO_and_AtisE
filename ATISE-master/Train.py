@@ -170,7 +170,7 @@ def train(task ='LinkPrediction',
     """
     Data Loading
     """
-    if data_dir == 'yago' or data_dir == 'wikidata':
+    if data_dir == 'yago' or data_dir == 'yago-1' or data_dir == 'yago-2' or data_dir == 'yago-3' or data_dir == 'wikidata' or data_dir == 'wikidata-1' or data_dir == 'wikidata-2' or data_dir == 'wikidata-3':
         kg = KnowledgeGraphYG(data_dir=data_dir, count = count,rev_set = rev_set)
         n_day = kg.n_time
         min_epoch=50
